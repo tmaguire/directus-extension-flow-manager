@@ -1,8 +1,12 @@
 {
 	"compilerOptions": {
 		"target": "ES2019",
-		"lib": ["ES2019", "DOM"],
-		"moduleResolution": "node",
+		"lib": [
+			"ES2019",
+			"DOM"
+		],
+		"module": "node16",
+		"moduleResolution": "node16",
 		"strict": true,
 		"noFallthroughCasesInSwitch": true,
 		"esModuleInterop": true,
@@ -23,10 +27,12 @@
 		"allowSyntheticDefaultImports": true,
 		"isolatedModules": true,
 		"rootDir": "./src",
-    "typeRoots": [
-      "./node_modules/@types",
-      "./types"
-    ]
+		"typeRoots": [
+			"./node_modules/@types",
+			"./types"
+		]
 	},
-	"include": ["./src/**/*.ts"]
+	"include": [
+		"./src/**/*.ts"
+	]
 }

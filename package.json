@@ -1,5 +1,5 @@
 {
-	"name": "directus-extension-flow-manager",
+	"name": "@tmaguire/directus-extension-flow-manager",
 	"description": "This is a custom module for managing Flow",
 	"icon": "extension",
 	"version": "1.5.3",
@@ -7,7 +7,7 @@
 		"name": "Bagus Andreanto",
 		"email": "andreanto.bagus@gmail.com"
 	},
-	"homepage": "https://github.com/baguse/directus-extension-flow-manager",
+	"homepage": "https://github.com/tmaguire/directus-extension-flow-manager",
 	"license": "gpl-3.0",
 	"keywords": [
 		"directus",
@@ -20,7 +20,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/baguse/directus-extension-flow-manager.git"
+		"url": "https://github.com/tmaguire/directus-extension-flow-manager.git"
 	},
 	"type": "module",
 	"files": [
@@ -63,15 +63,15 @@
 		"add": "directus-extension add"
 	},
 	"devDependencies": {
-		"@directus/composables": "^10.1.12",
-		"@directus/extensions-sdk": "11.0.2",
-		"@directus/format-title": "^10.1.2",
+		"@directus/composables": "^11.6.2",
+		"@directus/extensions-sdk": "18.0.4",
+		"@directus/format-title": "^13.0.0",
 		"@types/lodash": "^4.17.1",
-		"@types/node": "^20.12.8",
+		"@types/node": "^26.2.0",
 		"chart.js": "^4.4.6",
 		"lodash": "^4.17.21",
 		"sass": "^1.76.0",
-		"secure-ls": "^1.2.6",
+		"secure-ls": "^2.0.0",
 		"typescript": "^5.4.5",
 		"vue": "^3.4.26",
 		"vuedraggable": "^4.1.0"
