@@ -64,7 +64,7 @@
 	},
 	"devDependencies": {
 		"@directus/composables": "^11.6.2",
-		"@directus/extensions-sdk": "18.0.4",
+		"@directus/extensions-sdk": "18.0.6",
 		"@directus/format-title": "^13.0.0",
 		"@types/lodash": "^4.17.1",
 		"@types/node": "^26.2.0",
